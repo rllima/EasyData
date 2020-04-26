@@ -9,6 +9,7 @@ verify_ssl = true
 streamlit = "*"
 pandas = "*"
 pip = "*"
+toml = "*"
 
 [requires]
 python_version = "3.7"
