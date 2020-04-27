@@ -6,7 +6,7 @@ import processing
 
 def main():
     st.image("header.png",width=800,use_column_width=True)
-    st.sidebar.title("Menu")
+    st.sidebar.title("    Menu")
     loaded_header = st.sidebar.subheader("⭕️ Data not loaded")
 
     df = processing.check_file(st.sidebar.file_uploader('Select file (.csv)', type = 'csv'))
